@@ -1,0 +1,18 @@
+before_install: ./travis/before_script.sh
+
+script: 'echo "Hoi, building from Travis! Not much to do, will deploy ASAP!"'
+
+after_success: ./travis/deploy.sh --verbose
+
+env:
+  global:
+
+    # GitHub access token that grants access to thusoys GitHub account (needed to deploy to gh-pages)
+    -  secure: "TKlfDTFMygTtMSXsE/+dv3JVh9Ao5OULr2KDL+CI8S3Sctic6Ol0/4hGkxXpSsMu5dFfbB8oLMiX4G4S00fxeVP5NHV4xCA5oucYh87q47miEFQm8F5+tAV6kX4lXdQ13zrLCEPnO+lrg5QCXlldFkiFfBpTCshVcbFAH786pg8="
+
+notifications:
+  email: false
+
+branches:
+  only:
+    - master
