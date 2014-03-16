@@ -1,6 +1,12 @@
 # The program will be rendered with the movies in the order specified here, due to lack of a proper
 # way to sort arrays in Liquid. Add new movies on the top of the list.
 
+- title: The Man from Earth
+  date: 21-03-2014
+  description: |
+                  Why do we watch this?
+
+
 - title: Ferris Bueller's Day Off
   date: 14-03-2014
   description: |
