@@ -4,7 +4,7 @@
 
 set -o errexit #abort if any command fails
 
-deploy_directory=.
+deploy_directory=_site
 deploy_branch=gh-pages
 
 #if no user identity is already set in the current git environment, use this:

@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+{% assign author = site.data.authors[page.author] %}
+
+<article>
+
+  {{ content }}
+
+  <p class="byline">
+    Written by <a href="{{ author.homepage }}">{{ author.full_name }}</a> on {{ page.date|date:"%d-%m-%Y %H:%M" }}.
+  </p>
+</article>

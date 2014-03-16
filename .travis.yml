@@ -1,6 +1,8 @@
 before_install: ./travis/before_script.sh
 
-script: 'echo "Hoi, building from Travis! Not much to do, will deploy ASAP!"'
+install: gem install jekyll
+
+script: jekyll build
 
 after_success: ./travis/deploy.sh --verbose
 

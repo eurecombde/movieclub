@@ -1,0 +1,16 @@
+# The program will be rendered with the movies in the order specified here, due to lack of a proper
+# way to sort arrays in Liquid. Add new movies on the top of the list.
+
+- title: Ferris Bueller's Day Off
+  date: 14-03-2014
+  description: |
+                  We're kicking it off this season with the greatest high school movie from the
+                  80s, say hello to Ferris Bueller everyone!
+
+                  <a href="http://www.themoviedb.org/movie/9377-ferris-bueller-s-day-off">
+                    <img src="/images/ferris-bueller.jpg">
+                  </a>
+
+                  Today it's quite common to shy far away from any movie set in a high school
+                  environments, but there was a time when they managed to make quality content with
+                  this theme. This is the highlight from that period.

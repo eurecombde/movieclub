@@ -1,0 +1,14 @@
+---
+layout: default
+title: Program
+---
+
+{% for screening in site.data.screenings %}
+  <h2>
+    {{ screening.title }}
+    <small>({{ screening.date }})</small>
+  </h2>
+
+  {{ screening.description|markdownify }}
+
+{% endfor %}
