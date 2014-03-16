@@ -9,8 +9,9 @@
 </head>
 <body>
   <div class="wrapper">
-    <header>
 
+    {% comment %}hide the header on small displays if we're not on the main page{% endcomment %}
+    <header{% if page.title != "Blog" %} class="hidden-s"{% endif %}>
       <h1>Eurecom Movie Club</h1>
 
       <p>
