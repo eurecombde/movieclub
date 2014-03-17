@@ -1,7 +1,7 @@
 movieclub [![Build Status](https://travis-ci.org/eurecombde/movieclub.png?branch=master)](https://travis-ci.org/eurecombde/movieclub)
 =========
 
-Webpage for the movie club at Eurecom.
+Webpage for the movie club at Eurecom. The site is located at [bde.eurecom.fr](http://bde.eurecom.fr).
 
 Add new movie to the program by adding it to the top of the `_data/screenings.yml` file, follow the
 same format as the others.
