@@ -6,3 +6,4 @@ exclude:
   - README.md
   - LICENSE
   - travis
+url: http://bde.eurecom.fr
