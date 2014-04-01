@@ -1,6 +1,27 @@
 # The program will be rendered with the movies in the order specified here, due to lack of a proper
 # way to sort arrays in Liquid. Add new movies on the top of the list.
 
+- title: Life is Beautiful (La Vita è Bella)
+  date: 04-04-2014
+  description: |
+                  <a href="http://www.themoviedb.org/movie/637-la-vita-bella">
+                    <img src="/images/life-is-beautiful.jpg">
+                  </a>
+
+                  **Robert Benigni** is quite something of a man. It can be hard to play in the
+                  movie you are directing, but Beningi is one of only two people who have directed
+                  themselves into recieving an Oscar for Best Actor. However, he's also in the rare
+                  company of people to have directed themselves into a Razzie for *Worst Actor*,
+                  sharing the honors with folks like **Sylvester Stallone**, **Kevin Costner**  and
+                  **Prince**, to name a few.
+
+                  Anyway, we're focusing on **&laquo;Life is Beautiful&raquo;** this friday, the
+                  movie that won him the Best Actor, along with Best Foreign Film and Best Music.
+                  In one of the highest rated movies of all time (8.6 on
+                  [IMDb](http://www.imdb.com/title/tt0118799/)), **Benigni** will take us back to
+                  Italy in the 30s, to a Jewish family trying to survive Holocaust.
+
+
 - title: The Man from Earth
   date: 28-03-2014
   description: |
