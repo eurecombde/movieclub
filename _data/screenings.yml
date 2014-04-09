@@ -1,6 +1,20 @@
 # The program will be rendered with the movies in the order specified here, due to lack of a proper
 # way to sort arrays in Liquid. Add new movies on the top of the list.
 
+- title: Amadeus
+  date: 18-04-2014
+  description: |
+                  <a href="http://www.themoviedb.org/movie/279-amadeus">
+                    <img src="/images/amadeus.jpg">
+                  </a>
+
+                  Nine years after the masterpiece **&laquo;One Flew Over the Cuckoo's
+                  Nest&raquo;** from 1975, director **Miloš Forman** is back. Telling the story of
+                  Wolfgang Amadeus Mozart, **Amadeus** collected a nice 8 Oscars back in 1984. Join
+                  us for an exhibition on the genius, the music, and the insanity of one of the
+                  greatest classical composers the world has ever seen.
+
+
 - title: Life is Beautiful (La Vita è Bella)
   date: 04-04-2014
   description: |
