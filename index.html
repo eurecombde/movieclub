@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Blog
+feed: /feed.xml
 ---
 
 {% for post in paginator.posts %}
@@ -13,7 +14,7 @@ title: Blog
     {{ post.content }}
 
     <p class="byline">
-      Written by <a href="{{ author.homepage }}">{{ author.full_name }}</a> on {{ post.date|date:"%d-%m-%Y %H:%M" }}.
+      Written by <a href="{{ author.homepage }}">{{ author.full_name }}</a> on {{ post.date|date:"%d-%m-%Y %H:%M" }}. <a href="{{ post.url }}">Permalink</a>
     </p>
   </article>
 

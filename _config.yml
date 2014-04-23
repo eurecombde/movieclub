@@ -1,5 +1,6 @@
 name: Eurecom Movie Club
 markdown: redcarpet
+permalink: /blog/:title/
 paginate: 5
 host: 127.0.0.1
 exclude:
