@@ -1,6 +1,18 @@
 # The program will be rendered with the movies in the order specified here, due to lack of a proper
 # way to sort arrays in Liquid. Add new movies on the top of the list.
 
+- title: Tucker and Dale vs Evil
+  date: 09-05-2014
+  description: |
+                  <a href="http://www.themoviedb.org/movie/46838-tucker-and-dale-vs-evil">
+                    <img src="/images/tucker-and-dale-vs-evil.jpg">
+                  </a>
+
+                  The two hillbilly friends Tucker and Dale recently bought a cabin in the woods
+                  and are about to spend their vacation there. Their plan is foiled, however, by a
+                  group of college kids who are doing a camping trip in the same woods and assume
+                  the two friends to be serial killers. Confusion and a bloodbath ensues.
+
 - title: Amadeus
   date: 18-04-2014
   description: |
