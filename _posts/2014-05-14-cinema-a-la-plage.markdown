@@ -5,7 +5,10 @@ date:   14-05-2014 22:45
 author: tarjei
 ---
 
-<img src="/images/cinema-a-la-plage.jpg">
+{% assign lvl = page.url | append:'X' | split:'/' | size %}
+{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
+
+<img src="{{ relative }}images/cinema-a-la-plage.jpg">
 
 Due to a collision with the Cannes Film Festival this week, there will be no screening in Amphi,
 but most of the regulars will be at the beach in Cannes to watch **For a Few Dollars More**, a
