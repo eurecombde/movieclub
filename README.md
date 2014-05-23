@@ -1,3 +1,8 @@
+# Depcrecated! 
+
+**The movieclub site has been migrated to Django and integrated with the rest of the [BDE websites](https://github.com/eurecombde/bde_website), found at [bde.eurecom.fr](https://bde.eurecom.fr). This project is no longer maintained.**
+
+
 movieclub [![Build Status](https://travis-ci.org/eurecombde/movieclub.png?branch=master)](https://travis-ci.org/eurecombde/movieclub)
 =========
 
